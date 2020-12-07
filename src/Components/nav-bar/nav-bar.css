@@ -1,0 +1,17 @@
+nav {
+	background-color: #ccffff;
+	box-shadow: 0.5px 0.5px 2px 1px rgba(0,0,0,0.3);
+}
+
+
+
+img.profile-photo {
+	height: 2.7rem;
+	width: 2.7rem;
+	border-radius: 50%;
+}
+
+a.logo {
+	color: rgba(80,80,80);
+	font-family: 'Ubuntu';
+}

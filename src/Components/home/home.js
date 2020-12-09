@@ -18,7 +18,7 @@ class Home extends Component {
 		for(var i=0;i<3;i++) {
 			var temp = [];
 			for(var j=0;j<3;j++) {
-				temp.push(<div className="col-sm-4"><Library libName="My Lib" dateCreated="3/12/2020" linksCount="10" id={i.toString()+j.toString()} color="#00cc99" author="ANKAN MALLICK" /></div>);
+				temp.push(<div className="col-sm-4"><Library libName="My Lib" dateCreated="3/12/2020" linksCount="10" id={i.toString()+j.toString()} color="#fff" author="ANKAN MALLICK" /></div>);
 			}
 			list.push(<div className="row">{temp}</div>);
 		}

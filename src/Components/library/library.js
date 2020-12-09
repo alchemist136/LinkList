@@ -15,11 +15,11 @@ class Library extends Component {
 	render() {
 		return(
 			<div class="card text-white mb-3 lib-card" id={this.props.id}>
-			  <div class="card-header">by {this.props.author}</div>
+			  <div class="card-header"><h7>by {this.props.author}</h7></div>
 			  <div class="card-body">
 				 <h5 class="card-title">{this.props.libName}</h5>
-				 <p class="card-text"><b>Created on </b>{this.props.dateCreated}</p>
-				 <p class="card-text"><b>Links count </b>{this.props.linksCount}</p> 
+				 <p class="card-text">Created on {this.props.dateCreated}</p>
+				 <p class="card-text">Links count {this.props.linksCount}</p> 
 			  </div>
 			</div>
 		)

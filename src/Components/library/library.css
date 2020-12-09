@@ -1,7 +1,16 @@
 div.lib-card {
 	width: 18rem;
+	border-width: 1px;
+}
+
+div.lib-card:hover {
+	box-shadow: 0.5px 0.5px 2px 2px rgba(0,0,0,0.3);
 }
 
 div.lib-card p {
 	text-align: left;
+}
+
+p,h7,h5 {
+	color: #000;
 }
